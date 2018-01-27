@@ -1,0 +1,171 @@
+.navbar navbar-inverse {
+	background-color: blue;
+}
+
+.jumbotron {
+	background: url("../images/main1.jpg") center;
+}
+
+.well p.h4 {
+	line-height: 114%;
+}
+
+
+/* skills and abilities image-icons gallery */
+#img-container {
+	position: relative;
+	width: 100%;
+	height: 50%;
+}
+
+.image {
+	display: block;
+	margin: 10px 0px;
+	width: 100%;
+	height: 100px;
+}
+
+.overlay {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 96%;
+	width: 105%;
+	opacity: 0;
+	-webkit-transition: 0.5s ease;
+	-o-transition: 0.5s ease;
+	transition: 0.5s ease;
+	background-color: #008CBA;
+}
+
+.text ul {
+	list-style-type: none;
+}
+
+#img-container:hover .overlay {
+	opacity: 1;
+	height: 132px;
+}
+
+.text {
+	color: white;
+	font-size: 18px;
+	padding-left: -5px;
+	padding-right: 32px;
+	margin: auto;
+	position: absolute;
+	top: 45%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	text-align: center;
+}
+
+.row div.column {
+	background-color: #bbb;
+	width: 95%;
+	text-align: center;
+	padding: 1px;
+	padding-left: 0;
+	margin-left: 15px;
+	margin-top: 5px;
+	height: 200px;
+}
+
+.row a button {
+	background: #2460F9;
+	margin-left: 15px;
+	margin-top: 2px;
+	margin-bottom: 1px;
+	width: 95%;
+	color: #FFFFFF;
+}
+
+.container-fluid {
+	margin-left: -65px;
+}
+
+.icon {
+	margin: 5px;
+}
+
+
+/* drop down list */
+
+.dropbtn {
+	background-color: #2E2E2E;
+	color: white;
+	padding: 16px;
+	font-size: 16px;
+	border: none;
+	cursor: pointer;
+}
+
+.dropdown {
+	position: relative;
+	display: inline-block;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+	min-width: 400px;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+	z-index: 1;
+}
+
+.dropdown-content a {
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+}
+
+.dropdown-content a:hover {
+	background-color: #f1f1f1
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+.dropdown:hover .dropbtn {
+	background-color: #088A29;
+}
+
+
+/* work experience */
+
+div.col-sm-6 {
+	line-height: 0px;
+}
+
+h5.post.lead {
+	margin-bottom: -4px;
+}
+
+h4.descrip {
+	margin-left: 10px;
+}
+
+
+/* Add a gray background color and some padding to the footer */
+footer {
+    background-color: #f2f2f2;
+    padding: 25px;
+}
+.carousel-inner img {
+    width: 100%;
+   /* Set width to 100% */
+    min-height: 200px;
+}
+/* Hide the carousel text when the screen is less than 600 pixels wide */
+@media (max-width: 600px) {
+    .carousel-caption {
+        display: none;
+   }
+}
